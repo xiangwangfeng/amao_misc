@@ -39,8 +39,10 @@
     
     _dataSource = @[[DemoItem item:@"Manual AutoLayout"
                               name:@"M80AutoLayoutViewController"],
-                    [DemoItem item:@"Custom Present ViewController in iOS8"
-                              name:@"M80PresentViewController"]];
+                    [DemoItem item:@"Custom Present ViewController"
+                              name:@"M80PresentViewController"],
+                    [DemoItem item:@"Custom Transition ViewContorller"
+                              name:@"M80TransitionController"]];
 
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     [tableView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
@@ -87,6 +89,7 @@
     id vc = [[NSClassFromString(vcName) alloc] init];
     if ([vc isKindOfClass:[UIViewController class]])
     {
+        self.navigationController.delegate = nil;//部分VC需要设置delegate
         [self.navigationController pushViewController:(UIViewController *)vc
                                              animated:YES];
     }

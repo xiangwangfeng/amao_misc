@@ -101,6 +101,7 @@
         [self.view addConstraint:height];
     }
     
+    //等大的3个控件
     {
         UIView *leftView = nil;
         for (NSInteger i = 0 ; i < 3; i++)

@@ -7,6 +7,7 @@
 //
 
 #import "M80PresentViewController.h"
+#import "M80ShowViewController.h"
 
 
 @interface M80ViewControllerTransitioningDelegate : NSObject<UIViewControllerTransitioningDelegate>
@@ -25,6 +26,9 @@
 
 @end
 
+@interface M80PresentViewController ()<UIViewControllerTransitioningDelegate>
+
+@end
 @implementation M80PresentViewController
 
 - (void)viewDidLoad
@@ -42,6 +46,11 @@
 
 - (void)onPressed:(id)sender
 {
+    M80ShowViewController *vc = [M80ShowViewController new];
+    vc.transitioningDelegate = self;
     
+    [self.navigationController presentViewController:vc
+                                            animated:YES
+                                          completion:nil];
 }
 @end

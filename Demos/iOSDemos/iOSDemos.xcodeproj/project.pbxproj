@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8657AF3C1A5AEA930031AF9C /* M80CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8657AF3B1A5AEA930031AF9C /* M80CAViewController.m */; };
 		867F97561A2E04F00014E93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 867F97551A2E04F00014E93E /* main.m */; };
 		867F97591A2E04F00014E93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 867F97581A2E04F00014E93E /* AppDelegate.m */; };
 		867F975C1A2E04F00014E93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867F975B1A2E04F00014E93E /* ViewController.m */; };
@@ -29,8 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8657AF3A1A5AEA930031AF9C /* M80CAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80CAViewController.h; sourceTree = "<group>"; };
-		8657AF3B1A5AEA930031AF9C /* M80CAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80CAViewController.m; sourceTree = "<group>"; };
 		867F97501A2E04F00014E93E /* iOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867F97541A2E04F00014E93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		867F97551A2E04F00014E93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -133,8 +130,6 @@
 				867F977B1A2E05400014E93E /* M80AutoLayoutViewController.m */,
 				E4C5335C1A5A8A6300182371 /* M80PresentViewController.h */,
 				E4C5335D1A5A8A6300182371 /* M80PresentViewController.m */,
-				8657AF3A1A5AEA930031AF9C /* M80CAViewController.h */,
-				8657AF3B1A5AEA930031AF9C /* M80CAViewController.m */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -238,7 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8657AF3C1A5AEA930031AF9C /* M80CAViewController.m in Sources */,
 				867F975C1A2E04F00014E93E /* ViewController.m in Sources */,
 				867F97591A2E04F00014E93E /* AppDelegate.m in Sources */,
 				E4C5335E1A5A8A6300182371 /* M80PresentViewController.m in Sources */,
@@ -358,7 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSDemos/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -369,7 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSDemos/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

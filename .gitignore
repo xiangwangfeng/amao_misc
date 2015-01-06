@@ -213,3 +213,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+Demos/iOSDemos/iOSDemos.xcodeproj/project.xcworkspace/xcshareddata/iOSDemos.xccheckout
+
+Demos/iOSDemos/iOSDemos.xcodeproj/project.xcworkspace/xcuserdata/xiangwangfeng.xcuserdatad/UserInterfaceState.xcuserstate

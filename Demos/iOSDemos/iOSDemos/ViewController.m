@@ -40,9 +40,7 @@
     _dataSource = @[[DemoItem item:@"Manual AutoLayout"
                               name:@"M80AutoLayoutViewController"],
                     [DemoItem item:@"Custom Present ViewController in iOS8"
-                              name:@"M80PresentViewController"],
-                    [DemoItem item:@"Core Animation"
-                              name:@"M80CAViewController"]];
+                              name:@"M80PresentViewController"]];
 
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     [tableView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];

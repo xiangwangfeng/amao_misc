@@ -10,12 +10,14 @@
 
 
 
+//手写Layout..不使用用VFL...
 @implementation M80AutoLayoutViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
+    //边边角角停靠
     NSArray *texts              = @[@"left-top",@"right-top",@"left-bottom",@"right-bottom"];
     NSArray *hAttributes        = @[@(NSLayoutAttributeLeft),@(NSLayoutAttributeRight),@(NSLayoutAttributeLeft),@(NSLayoutAttributeRight)];
     NSArray *hOffsets           = @[@(25),@(-25),@(25),@(-25)];
@@ -53,6 +55,7 @@
     
     }
     
+    //中间 大小成比例
     {
         UIView *centerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
         centerView.translatesAutoresizingMaskIntoConstraints = NO;

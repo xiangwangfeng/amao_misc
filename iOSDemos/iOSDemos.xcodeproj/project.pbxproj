@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8622210A1A6B54B500F082F0 /* M80ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862221091A6B54B500F082F0 /* M80ThreadViewController.m */; };
 		867F97561A2E04F00014E93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 867F97551A2E04F00014E93E /* main.m */; };
 		867F97591A2E04F00014E93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 867F97581A2E04F00014E93E /* AppDelegate.m */; };
 		867F975C1A2E04F00014E93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867F975B1A2E04F00014E93E /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		862221081A6B54B500F082F0 /* M80ThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80ThreadViewController.h; sourceTree = "<group>"; };
+		862221091A6B54B500F082F0 /* M80ThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80ThreadViewController.m; sourceTree = "<group>"; };
 		867F97501A2E04F00014E93E /* iOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867F97541A2E04F00014E93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		867F97551A2E04F00014E93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				E443029F1A5BC4B90021B077 /* M80TransitionController.m */,
 				E44302A11A5BC9610021B077 /* M80ShowViewController.h */,
 				E44302A21A5BC9610021B077 /* M80ShowViewController.m */,
+				862221081A6B54B500F082F0 /* M80ThreadViewController.h */,
+				862221091A6B54B500F082F0 /* M80ThreadViewController.m */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8622210A1A6B54B500F082F0 /* M80ThreadViewController.m in Sources */,
 				E44302A01A5BC4B90021B077 /* M80TransitionController.m in Sources */,
 				867F975C1A2E04F00014E93E /* ViewController.m in Sources */,
 				E44302A31A5BC9610021B077 /* M80ShowViewController.m in Sources */,

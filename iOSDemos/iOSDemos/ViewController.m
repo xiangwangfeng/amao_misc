@@ -42,13 +42,17 @@
                     [DemoItem item:@"Custom Present ViewController"
                               name:@"M80PresentViewController"],
                     [DemoItem item:@"Custom Transition ViewContorller"
-                              name:@"M80TransitionController"]];
+                              name:@"M80TransitionController"],
+                    [DemoItem item:@"Thread Memory Issues"
+                              name:@"M80ThreadViewController"]];
 
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     [tableView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
     tableView.delegate = self;
     tableView.dataSource = self;
+    [tableView setBackgroundColor:[UIColor clearColor]];
     [self.view addSubview:tableView];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     
     [self.navigationController.view setBackgroundColor:[UIColor whiteColor]];
 }

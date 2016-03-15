@@ -10,7 +10,10 @@ Demos:
 * DragDropDemo iOS拖曳Demo (iOS OC)
 * ProgressTaskBar Win7进度条 (Windows C++)
 * WordGuess 猜猜看辅助工具 (OSX OC)
-* M80Image 简单的图片去重合并实现 (iOS OC)
+* BundleProjects 用于巨型工程的 Sub App 架构 (iOS OC)
 
 Codes:
 * QQ,LINE,WECHAT头文件
+
+iOSDemos:
+一些iOS下的实验性Demo
